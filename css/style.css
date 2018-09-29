@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700|Playfair+Display');
+
+body{
+	font:400 27px/1.5 'Lato', sans-serif;
+	background-color: #ffffff;
+	color:#171717;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0 0 40px;
+}
+
+.ba-container{
+    padding: 140px 121px 140px;
+    margin: 130px auto;
+    max-width: 1400px;
+    background-color:  #ffffff;
+    box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ba-title {
+    font: 400 42px/1.5 'Playfair Display', serif;
+}
+
+.ba-text {
+    font-family: 300 18px/1.8 'Lato', sans-serif;
+}
+
+.ba-first-paragraph::first-letter {
+    font: 400 110px/1 'Playfair Display', serif;
+    float:left;
+    margin: 0px 28px 0px 0px;
+}
+
+.ba-link {
+    color:  #eaa258;
+    font-size: 18px;
+    font-weight: 700;
+    border:1px solid #eaa258;
+    padding: 22px 76px 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+}
+
+.ba-quote {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 37px;
+}
